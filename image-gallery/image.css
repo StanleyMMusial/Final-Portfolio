@@ -35,6 +35,26 @@ h1:hover {
     text-decoration: none;
 }
 
+h2 {
+    color: rgb(255,192,54);
+    font-family: 'Alegreya SC', serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.project {
+    border: rgb(255,192,54) solid 2px;
+    width: fit-content;
+    padding: 3px;
+    margin: 30px;
+}
+main {
+    display: flex;
+    justify-content: center;
+}
+
 @media only screen and (max-width: 768px) {
     .nav {
         flex-direction: column;
@@ -48,6 +68,11 @@ h1:hover {
     }
     .logo {
         max-width: 200px;
+    }
+    main {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
     }
 }
 
@@ -63,5 +88,10 @@ h1:hover {
     }
     .logo {
         max-width: 150px;
+    }
+    main {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
     }
 }

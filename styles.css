@@ -35,6 +35,37 @@ h1:hover {
     text-decoration: none;
 }
 
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.banner {
+    display: flex;
+    width: 20%;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    color: rgb(255,192,54);
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+}
+
+.overlay {
+    position: absolute;
+    width: 20%;
+    height: 600px;
+    text-align: center;
+    opacity: 0%;
+}
+
+.overlay:hover {
+    opacity: 100%;
+}
+
 @media only screen and (max-width: 768px) {
     .nav {
         flex-direction: column;
@@ -48,6 +79,13 @@ h1:hover {
     }
     .logo {
         max-width: 200px;
+    }
+    main {
+        flex-direction: column;
+        margin-left: 250px;
+    }
+    .banner {
+        height: 400px;
     }
 }
 
@@ -63,5 +101,12 @@ h1:hover {
     }
     .logo {
         max-width: 150px;
+    }
+    main {
+        flex-direction: column;
+        margin-left: 250px;
+    }
+    .banner {
+        height: 400px;
     }
 }

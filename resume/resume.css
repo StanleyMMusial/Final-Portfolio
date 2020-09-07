@@ -35,6 +35,51 @@ h1:hover {
     text-decoration: none;
 }
 
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    background-color: black;
+    border-radius: 25px;
+    border: rgb(255,192,54) solid 2px;
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.download {
+    border: rgb(255,192,54) solid 2px;
+    height: 100px;
+    width: fit-content;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    color: rgb(255,192,54);
+    font-family: 'Alegreya SC', serif;
+}
+
+h3 {
+    color: rgb(255,192,54);
+    font-family: 'Alegreya SC', serif;
+    font-size: 60px;
+}
+
 @media only screen and (max-width: 768px) {
     .nav {
         flex-direction: column;
